@@ -4,7 +4,7 @@ async function start() {
     while(true){
 
 
-let mybalance = 10000;  //DOllERS
+let mybalance = 11000;  //DOllERS
 console.log(chalk.green(`your current balance is:${mybalance}`));
 let mypin = 9955;
 let pin = await password({ message: chalk.blue("Please enter your pin") });
